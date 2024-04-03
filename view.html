@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Project-ends-the-semester/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Project-ends-the-semester/css/home.css">
+    <link rel="stylesheet" href="../Project-ends-the-semester/css/view.css">
+</head>
+<body onload="load_info()">    
+<!--header section starts-->
+    <header>
+        <a href="home.html" class="logo"><img src="../Project-ends-the-semester/image/logo1.png" alt=""></a>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fa-solid fa-bars"></label>
+
+        <nav class="navbar">
+            <a href="home.html">Trang chủ</a>
+            <a href="home.html">Giới thiệu</a>
+            <a href="view.html">Xem</a>
+            <a href="javascript:check_enter();">Nhập</a>
+            <a href="login.html">Đăng nhập</a>
+        </nav>
+
+    </header>
+<!--header section ends-->
+
+<!-- view section stars -->
+    <section class="manage">
+        <div class="container mt-4">
+            <h1 class="text-center">View products</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th>Price</th>
+                        <th>  </th> <!-- cột button xoá -->
+                        <th>  </th> <!-- cột button sửa -->
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+                    <!-- Information added here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+<!-- view section stars -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <img src="../Project-ends-the-semester/image/logo.png" alt="">
+        </div>
+        <div class="box">
+            <h3>Social media</h3>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="box">
+            <h3 class="middle">Contact with Us</h3>
+            <div class=contacts>
+                <a href=""><i class="fa-solid fa-phone"></i> 0942165818</a>
+                <a href=""><i class="fa-solid fa-envelope"></i> my-email@gmail.com</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i> Ha Dong, Ha Noi</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit"> created by <span> Bảo Nhi </span> </div>
+
+</section>
+<!-- footer section ends -->
+    <script src="../Project-ends-the-semester/js/view.js"></script>
+    <script src="../Project-ends-the-semester/js/app.js"></script>
+    <script src="../Project-ends-the-semester/js/jquery.js"></script>
+</body>
+</html>

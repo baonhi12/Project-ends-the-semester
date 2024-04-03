@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Project-ends-the-semester/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="login(event)">
+            <h1>Login account</h1>
+            <!--form-control-->
+            <div class="form-control ">
+                <input id="email" type="email" placeholder="Enter your username">
+                <small></small>
+                <span></span>
+            </div>
+            <!--form-control-->
+            <div class="form-control ">
+                <input id="password" type="password" placeholder="Enter your password">
+                <small></small>
+                <span></span>
+            </div>
+            <!--form-control-->
+            <button type="submit" class="btn-submit" value="Login" onclick="login();">Xác nhận</button>
+            <div class="signup-link">
+                Back home? <a href="home.html">Click here</a> 
+            </div>
+        </form>
+    </div>
+    <script src="../Project-ends-the-semester/js/login.js"></script>
+    <script src="../Project-ends-the-semester/js/app.js"></script>
+    <script src="../Project-ends-the-semester/js/jquery.js"></script>
+</body>
+</html>
